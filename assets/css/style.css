@@ -178,8 +178,13 @@ html {
 #slider {
     position: relative;
     margin-top: 46.5px;
-    padding-top: 50%;
-    background: url(/assets/img/slider/Slider1.jpg) top center / cover no-repeat;
+    background: url(/assets/img/slider/Slider1.jpg) / cover no-repeat;
+}
+
+#slider img {
+    width: 100%;
+    background-position: top;
+    /* padding-top: 50%; */
 }
 
 #slider .text-content {
